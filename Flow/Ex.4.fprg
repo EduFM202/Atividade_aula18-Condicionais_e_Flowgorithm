@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:42:40 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTM7IjAyOjEyOjU0ICI7Mjg1MQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjA4OjQyOjQwICI7MjsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade, variavel" type="Real" array="False" size=""/>
+            <output expression="&quot;Verifica&#231;&#227;o de idade para conferir se voc&#234; pode dirigir.&quot;" newline="True"/>
+            <output expression="&quot;Qual &#233; a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade &gt;= 18">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; tem idade o suficiente para dirigir!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Oh n&#227;o, voc&#234; ainda n&#227;o completou 18 anos&quot;" newline="True"/>
+                    <output expression="&quot;Ou seja, n&#227;o pode dirigir :(&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:43:55 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTM7IjAyOjIxOjM0ICI7Mjg0OQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjA4OjQzOjU1ICI7NDsyOTc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="senha, nome" type="String" array="False" size=""/>
+            <output expression="&quot;Verifica&#231;&#227;o de senha, fa&#231;a seu login:&quot;" newline="True"/>
+            <output expression="&quot;Digite seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a senha: &quot;" newline="True"/>
+            <input variable="senha"/>
+            <if expression="senha = &quot;acb23&quot;">
+                <then>
+                    <output expression="&quot;Acesso autorizado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Senha incorreta!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
